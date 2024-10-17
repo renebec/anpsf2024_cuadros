@@ -1,0 +1,372 @@
+@media screen and (min-width: 891px) {
+  body {
+    font-size: 20px;
+    width:900px;
+    margin:auto;
+  }
+    .rotul {
+font-family:sweetPine;
+font-size:450%;
+color:#FF7750;
+text-align: center;
+width:700px;
+    }
+    .autor{
+font-size:18px;
+padding-left:5%;
+padding-top:0%;
+color:white;
+font-family: viroFont, script, montserrat, century gothic , sans-serif;
+
+    }
+    .video1{
+    width:100%;
+    height:450px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+
+    #kmvs {
+    width:30%;
+    float:left;
+    margin:0 20px 0 0 ;
+    border: 0px solid white;
+    clear:right;
+    }
+
+    .zoom {
+  padding-left: 10px;
+  background-color: #BBBDBD;
+  transition: transform .5s; /* Animation */
+  height:600px
+  margin: 0 auto;
+
+}
+
+.zoom:hover {
+  transform: scale(2.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  padding-left:70px;
+    }
+
+    .gif{
+    width:100%;
+    height:640px;
+    display:block;
+    margin-left:0.5px;
+    margin-right:0.5px;
+    scale:0.95;
+    }
+
+    .gif:hover{
+    transform: scale(1.15);
+    }
+}
+
+@media screen and (max-width: 890px) {
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+    body {
+    margin:1% 1%;
+  }
+    body {
+    width:auto;
+  }
+
+  .rotul {
+font-family:sweetPine;
+font-size:250%;
+color:#FF7750;
+text-align: center;
+width:auto;
+    }
+    .autor{
+font-size:15px;
+padding-left:5%;
+padding-top:0%;
+color:white;
+font-family: viroFont, script, montserrat, century gothic , sans-serif;
+
+    }
+    .video1{
+    width:100%;
+    height:240px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+    .gif{
+    width:100%;
+    height:400px;
+    display:block;
+    align:right;
+    margin-left:1px;
+    margin-right:1px;
+    scale:1;
+    }
+
+    .gif:hover{
+    transform: scale(1.125);
+    }
+
+    #kmvs {
+    width:50%;
+    float:left;
+    margin:0 10px 0 0 ;
+    border: 0px solid white;
+    clear:right;
+    }
+
+    .zoom {
+  padding-left: 2px;
+  background-color: #BBBDBD;
+  transition: transform .5s; /* Animation */
+  height:600px
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  padding-left:35px;
+}
+
+}
+
+@font-face {
+   font-family: sweetPine;
+   src: URL('sweetpineapple-webfont.woff'),format('woff'),
+   URL('sweetpineapple-webfont.woff2'),format('woff2'),
+   URL('sweetpineapple-webfont.ttf'),format('truetype'),
+   URL('sweetpineapple-webfont.otf'),format('opentype'),
+   URL('sweetpineapple-webfont.eot'),format('embedded-opentype');
+}
+
+.specialFont {
+     font-family: sweetPine, ultra, script, montserrat, century gothic , sans-serif;
+}
+
+@font-face {
+   font-family: viroFont;
+   src: URL('viro-webfont.ttf'), format('truetype'),
+   URL('viro-webfont.otf'), format('opentype'),
+   URL('viro-webfont.woff'), format('woff'),
+   URL('viro-webfont.eot'), format('embedded-opentype');
+}
+
+.specialFont2 {
+     font-family: viroFont, ultra, script, montserrat, century gothic , sans-serif;
+}
+
+
+
+body {
+font-family:  viroFont, script, montserrat, century gothic , sans-serif;
+background:#252626;
+
+}
+
+header,section,footer,nav{
+display:block;
+}
+
+.hidden{
+display:none;
+}
+
+a{
+background-color: black;
+color: yellow;
+padding:0.05%;
+}
+
+h1{
+font-family: viroFont, cambria;sans-serif;
+background:#303030;
+padding:2% 2%;
+color:#958045;
+}
+
+
+
+.menu li{
+margin:1px auto;
+border: 1px solid black;
+padding: 0.2%;
+font:bold 14px century gothic;
+display: inline;
+font-size:1vw;
+
+}
+
+
+section{
+font-size:font-size:95%;;
+border:1px solid black;
+margin-right:5px auto;
+margin-left:5px auto;
+padding-right: 5px;
+padding-left:5px;
+padding-top:15px;
+padding-bottom:2px;
+background:#BBBDBD;
+word-break: break-word;
+}
+
+
+.agrupar1{
+text-align:justify;
+margin:25px 5px;
+}
+
+h3{
+color:beige;
+padding-left:2%;
+margin:0px 0px;
+font-size:100%
+}
+
+table, th, td {
+  border:1px solid white;
+  font-family: courier;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  white-space:no-wrap;
+
+}
+
+img.custom:hover,
+img.custom:focus {
+  width: 750px;
+  height: 350px;
+}
+
+
+
+.zoom1 {
+  padding-left:15%;
+  padding-right:15%;
+  background-color: #222222;
+  transition: transform .5s; /* Animation */
+  margin: auto;
+}
+
+.zoom1:hover {
+  transform: scale(1.45); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom2 {
+  padding-left:35%;
+  padding-right:35%;
+  background-color: #222222;
+  transition: transform .5s; /* Animation */
+  width: 30%;
+  margin: auto;
+}
+
+.zoom2:hover {
+  transform: scale(3.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom3 {
+  padding-left:0%;
+  padding-right:0%;
+  background-color: #222222;
+  transition: transform .5s; /* Animation */
+  width: 100%;
+  margin: auto;
+}
+
+.zoom3:hover {
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.table1, th, td {
+  border:1px solid white;
+  font-family: courier;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  table-layout: fixed;
+  word-wrap: break-word;
+  word-break:break-all;
+}
+
+.centerr{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%;
+}
+
+.centerx{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:70%;
+}
+
+.centerxx{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+
+}
+
+
+
+
+
+caption {
+caption-side:bottom;
+text-align:left;
+}
+
+.bullets{
+margin:10px auto;
+width:670px;
+background:lightgoldenrodyellow
+}
+
+#more0 {display: none;background:#BBBDBD}
+#more {display: none;background:#BBBDBD}
+#more2 {display: none;background:#BBBDBD}
+#more3 {display: none;background:#BBBDBD}
+#more4 {display: none;background:#BBBDBD}
+#more5 {display: none;background:#BBBDBD}
+#more6 {display: none;background:#BBBDBD}
+#more6b {display: none;background:#BBBDBD}
+#more7 {display: none;background:#BBBDBD}
+#more8 {display: none;background:#BBBDBD}
+
+button{
+background:#FF4025;
+color:white;
+}
+
+footer{
+font-size:75%;
+text-align:center;
+color:beige;
+}
+
+.alert alert-success{
+background:red;
+}
+
+
+.boton{
+    width:200px;
+    font-size:14px;
+    background-color:#993699;
+    }

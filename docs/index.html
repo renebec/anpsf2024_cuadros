@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en;sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANPSF2024</title>
+    <meta name="description" content="ANPSF research 2024"/>
+    <meta name="Author" content="HRBC"/>
+    <meta name="keywords" content="ANPSF, forest, teledetection, remote sensing"/>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body style="color:#493535">
+<script src="actions.js"></script>
+    <div class="agrupar1">
+    <header>
+        <div style="background-color:#E5e08F;padding-top:15px;padding-bottom:5px;">
+
+        <p style="background-color:#607760; text-align:center;padding:1.5%;">
+        <text class="rotul" >
+            Cuadros e imágenes
+        </text>
+            </p>
+            <text style="color:#807760;font-size:14px;position:absolute;
+            padding:10px">Año 2024 &emsp;&emsp;Science, Tech & Research</text>
+            </div>
+        <!-- color pink-peach fluorescent ==#FF7750 it's background == #807760 -->
+
+        <br>
+    <h1>
+        Influencia de la topografía en la distribución de la vegetación
+        del Área Natural Protegida Sierra Fría en
+        Aguascalientes, México.
+    </h1>
+
+        <text class="autor" style="color:#857040;">
+            M.C. Héctor René Becerril Cejudo
+        </text><br>
+        <text class="autor" style="color:#857040">
+            03 de oct de 2024
+        </text>
+        <br>
+        <br>
+        <img src="sierra1.jpg" width="100%" alt="Vista de la Sierra Fría"><br>
+        <br>
+        <br>
+        <hr />
+        <br>
+        </header>
+            <br>
+
+        <hr />
+        <br>
+        <br>
+
+        <h3>
+        Estimación de la Fracción de Cobertura Vegetal con ajuste de copa verde y seca (FCVA)
+        </h3>
+
+    <section>
+
+         Imágenes RGB registradas por dron con resolución de pixel de 0 . 14 m.<br>
+        Mosaico a partir de las imágenes RGB.<br>
+        Malla con cuadrantes de muestreo dentro de los que se estimó la FCVA.
+        <br>
+        <br>
+        <img src="fcv mesh2.jpg" width="100%" alt="fracción de cobertura vegetal ajustada"><br>
+        <br>
+        <hr />
+        <hr />
+        <br>
+        <br>
+        </span>
+                <button onclick="myFunction0()" id="myBtn0">Leer más</button>
+        <br>
+        <br>
+    </section>
+        <br>
+        <br>
+
+        <iframe class="video1"
+                src="https://www.youtube.com/embed/zfPawxJJ9XQ?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&playlist=zfPawxJJ9XQ"  title="dron vuelo Sierra Fría"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </iframe>
+        <caption><i style="color:#557090;">El vídeo muestra diferentes tomas de algunos vuelos con dron que se realizaron
+            en tres distintos puntos de la Sierra Fría.</i></caption>
+        <!--?playlist=tgbNymZ7vqY&loop=1-->
+    <br>
+        <br>
+        <br>
+
+    <h3>
+        Características de la imagen Sentinel 2
+    </h3>
+
+    <section>
+
+            &emsp;Se seleccionó una escena multiespectral de la plataforma satelital <b>SENTINEL 2</b>
+        capturada con el sensor <b>Multi Spectral Intrument</b> (MSI) con fecha
+        de registro de <span id="dots">...</span><span id="more"> 2023-03-13, y obtenida a través de la herramienta de gestión
+        <a href="https://browser.dataspace.copernicus.eu/" target="_blank"> Copernicus </a> de
+        la <b>Agencia Espacial Europea</b> (ESA por sus siglas en inglés). Las características
+        de la imagen
+             se describen a continuación:
+        <br>
+        <br>
+        <text style="color:purple;">SENTINEL-2 lleva un instrumento óptico que muestrea 13 bandas espectrales:
+        cuatro bandas a 10 m, seis bandas a 20 m y tres bandas a una resolución espacial de 60 m.
+        </text>
+        <a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2" target="_blank" >[3]&#128072;
+        </a>
+
+
+        <br>
+        <br>
+        <br>
+        <i style="color:#557090;">Tabla 1. Descripción de las bandas del sensor MSI.</i>
+            <table border=0
+           style="background-color:lightgrey;width:100%;"
+           class="table1">
+
+                    <thead style="background-color:#66C802;color:white">
+
+                        <tr style="background:green3;"><th class="word"> Número de banda </th> <th class="meaning">Longitud de<br>onda central <br>(nm)</th><th class="example">Ancho de banda <br>(nm)</th><th class="example">Resolución espacial<br>(m)</th></tr></thead>
+                        <tr style="text-align:left;color:black;">  <td> 1</td><td align="center">442.7</td><td>20</td><td>60</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 2</td><td align="center">492.7</td><td>65</td><td>10</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 3</td><td align="center">559.8</td><td>35</td><td>10</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 4</td><td align="center">664.6</td><td>30</td><td>10</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 5</td><td align="center">704.1</td><td>14</td><td>20</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 6</td><td align="center">740.5</td><td>14</td><td>20</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 7</td><td align="center">782.8</td><td>19</td><td>20</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 8</td><td align="center">832.8</td><td>105</td><td>10</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 8a</td><td align="center">864.7</td><td>21</td><td>20</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 9</td><td align="center">945.1</td><td>19</td><td>60</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 10</td><td align="center">1,373.5</td><td>29</td><td>60</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 11</td><td align="center">1,613.7</td><td>90</td><td>20</td></tr>
+                        <tr style="text-align:left;color:black;">  <td> 12</td><td align="center">2,202.4</td><td>174</td><td>20</td></tr>
+                 </table>
+        <br>
+        <br>
+        <br>
+        <hr />
+        <br>
+        <br>
+        <text style="color:#707050">
+            Fuentes consultadas:<br>
+            https://sentinel.esa.int/web/sentinel/missions/sentinel-2
+            <br>
+            <br>
+        Escena descargada:<br>
+        D:\Documents\GIS\IMG_SAT\S2A_MSIL1C_2023...\
+        </text>
+        <br>
+        <br>
+        <hr />
+        <br>
+        <br>
+        </span>
+                <button onclick="myFunction()" id="myBtn">Leer más</button>
+        <br>
+        <br>
+    </section>
+        <br>
+
+    <h3>
+        Pre-procesamiento de imágen Sentinel 2
+    </h3>
+
+    <section>
+        <text style="color:purple;">Corrección atmosférica mediante el método DOS</text><br>
+        <text style="color:purple;">Corrección de iluminación por efecto de la topografía ( método C )</text><br>
+
+        <br>
+
+
+        <br>
+        Como resultado se obtuvo una imagen mejorada, con una reducción notoria de sombras por efecto
+        de la topografía.
+        <br>
+        <br>
+        <img  class="centerx" src="view compare1.png" width="100%" alt="Corrección de iluminación por factor C"><br>
+
+        <br>
+        <br>
+        <br>
+        <hr />
+        <br>
+        <br>
+        <!--
+        <text style="color:#707050"><i>
+            Fuentes consultadas:<br>
+            https://www.researchgate.net/publication/342323432_PLC-C_An_Integrated_Method_for_Sentinel-2_Topographic_and_Angular_Normalization<br>
+            https://www.sciencedirect.com/science/article/abs/pii/S0303243411000584#preview-section-snippets<br>
+            https://www.researchgate.net/publication/259275014_Topographic_correction_of_satellite_images_Theory_and_application<br>
+            https://www.sciencedirect.com/science/article/abs/pii/S0303243411000584<br>
+            https://www.sciencedirect.com/science/article/abs/pii/S0034425711000411<br>
+            https://www.researchgate.net/publication/270895671_Review_of_Different_Topographic_Correction_Techniques_for_Satellite_Imagery<br>
+            https://www.sciencedirect.com/science/article/pii/S0303243422000423<br>
+            https://www.sciencedirect.com/science/article/pii/S0303243422000423#b0220<br>
+            https://www.researchgate.net/publication/301677429_CORRECCION_TOPOGRAFICA_A_IMAGENES_LANDSAT_POR_CLASES_DE_PENDIENTE<br>
+            https://www.researchgate.net/publication/361944391_Como_realizar_correcciones_topograficas_a_imagenes_satelitales_con_QGIS
+            <br>
+            <br>
+            Datos de elevación:<br>
+        D:\Documents\GIS\AGS_ANPSF\ANPSF_2023\MED_20230313_ANPSF.tif<br>
+            Salida:<br>
+        D:\Documents\GIS\IMG_SAT\S2A_MSIL1C_2023...\C3_20230313\C_20230313_B0stack_raster.tif
+
+
+        </i></text>
+
+        <br>
+        <br>-->
+        </span>
+                <button onclick="myFunction3()" id="myBtn3">Leer más</button>
+        <br>
+        </section>
+        <br>
+        <br>
+        <iframe class="video1"
+                src="https://www.youtube.com/embed/2lE5eJ9KM98?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&playlist=2lE5eJ9KM98"  title="dron vuelo Sierra Fría"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </iframe>
+
+
+       <!-- ?playlist=tgbNymZ7vqY&loop=1 -->
+    <br>
+        <br>
+        <br>
+
+
+
+        <header>
+    <h3>
+        1 . 3 . Índices Espectrales ( IE )
+    </h3>
+    </header>
+    <section>
+
+        <br>
+        <br>
+        <text style="font-family:helvetica;font-size: 18px;">
+        &emsp;<b>Índice de Vegetación de Diferencia Normalizada (NDVI Normalized Difeference Vegetation Index)</b><br>
+
+        &emsp;<b>Índice Global de Humedad Vegetal (GVMI Global Vegetation Moisture Index)</b><br>
+
+        &emsp;<b>Índice de Vegetación y Humedad Escasos (BVMI Bare Vegetation-Moisture Index)</b>
+        <br>
+        <br>
+            <img  class="centerx" src="plot index compareb.png" width="100%" alt="spectral indices"><br>
+            <img  class="centerx" src="c image.png" style="width:30%" alt="spectral indices"><br>
+
+        <br></text>
+        <br>
+        <!-- La Figura 2 muestra la forma de la distribución de
+        los valores del <b>NDVI</b>, en contraste con lo que se
+        observa en los valores del <b>SAVI</b>.</b>
+        <br>
+        <br>
+        <br>
+        <img src="index density & scatter.png"
+                class="centerxx" width="100%"
+                alt="index hist">
+        <i style="color:#557090"> Figura 2. Se observa el contraste entre la
+            distribución de los datos del <b>SAVI</b> y del <b>NDVI</b>.
+        &emsp;<a onclick="PopWinFig02()">
+                                <button onclick="PopWinFig02()"
+                                style="font-weight:bold;color:white;width:100px" class="boton">
+                    &#128073; ver </button></a></i>
+        </-->
+        Estimación de la FCVA a partir de los IE
+        <br>
+        <br>
+        <img  class="centerx" src="Scat_FCVA_NDVI.png" style="width:50%" alt="spectral indices">
+        <img  class="centerx" src="Scat_FCVA_GVMI.png" style="width:50%" alt="spectral indices">
+        <img  class="centerx" src="Scat_FCVA_BVMI.png" style="width:50%" alt="spectral indices"><br>
+
+            <br>
+            <br>
+
+
+
+            <br>
+            <br>
+            <br>
+           </i> </text>
+        </span>
+
+    </section>
+        <br>
+        <br>
+<img src="anpsf_canyon1.png" style="width:100%;"></img>
+        <br>
+        <br>
+        <h3>
+
+        <br>
+        <br>
+        <iframe class="video1"
+                src="https://www.youtube.com/embed/YVUhCRHB9-Q?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&playlist=YVUhCRHB9-Q"  title="dron vuelo Sierra Fría"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen ></iframe>
+        </iframe>
+        <caption><i style="color:#557090;">En el vídeo se observa un paneo sobre la imagen del Componente Principal 1 (PC-1)
+            extraído de una fotografía RGB registrada por un dron. La imagen nos permite distinguir en tonos de gris diferentes
+            tipos de cobertura que se presentan en la zona de estudio. Las zonas más oscuras representan zonas de
+        intenso verdor vegetal mientras que las zonas en color blanco corresponden a suelo desnudo y roca.</i></caption>
+        <br>
+        <br>
+        <br>
+        <header>
+    <h3>
+        1 . 5 . Clasificación de imágenes
+    </h3>
+    </header>
+    <section>
+        <h4>
+            Clasificación k-means
+        </h4>
+
+            <br>
+            <br>
+        <br>
+        <img  class="centerx" src="c image.png" style="width:30%;float:center" alt="spectral indices"><br>
+        <img src="km_NDVI_map.png" style="width:40%;float:left"  class="centerxx"
+        >
+        <img src="km_GVMI_map.png" style="width:40%;float:right" class="centerxx"
+        >
+        <img src="km_BVMI_map.png" style="width:40%;float:center" class="centerxx"
+        >
+
+
+        <br>
+
+        </text>
+                <br>
+        <br>
+        </span>
+                <button onclick="myFunction6()" id="myBtn6">Leer más</button>
+        <br>
+        <br>
+
+
+    </section>
+    <br>
+
+
+
+
+
+
+
+
+        <header>
+    <h3>
+        1 . 6 . Análisis de regresión logística ordinal
+    </h3>
+    </header>
+    <section>
+
+        <br>
+        <br>
+        Curvas de probabilidad estimadas por el modelo.
+        <br>
+        <br>
+        <br>
+        <img class="centerxxx" src="plot_all probability matrix BVMI_Mesa de trabajo 1.png" style="width:70%" >
+     <!--   <img class = "zoom3" src="plot_prob_logit.png" width="100%" alt="gráfica de probabilidades">--><br>
+        <i style="color:#557090;">Fig 6. Probabilidades de ocurrencia de las diferentes clases de vegetación
+            para diferentes valores de la pendiente, altitud y orientación
+            del terreno.</i>.
+        <br>
+        <br>
+   Estos resultados pueden ser de utilidad para alimentar modelos de optimización para la
+        localización y mapeo de sitios aptos para acciones específicas de restauración y conservación.
+        El siguiente ejemplo muestra un modelo de superficie de respuesta con las variables
+        slope, aspect y la respuesta del IE.
+        <br>
+        <br>
+        <iframe src="https://renebec.github.io/linearMult3D/"
+        style="width:100%;height:500px;" title="3D surface response"></iframe>
+        <i style="color:#557090;">Fig 7. Gráfica interactiva. Superficie de respuesta donde se observa la
+            interacción de la pendiente y la orientación sobre la respuesta del IE.
+            El eje <b>x</b> representa los valores de la pendiente;
+            el eje <b>y</b> representa los valores de orientación del terreno donde 0 indica la
+            orientación Norte y 180 la orientación Sur. Se observa que el IE crece
+            con el aumento de la pendiente y principalmente en terrenos con orientación Norte.</i>
+        <br>
+        <br>
+        <br>
+        <hr />
+
+        </span>
+                <button onclick="myFunction7()" id="myBtn7">Leer más</button>
+        <br>
+        <br>
+    </section>
+        <br>
+        <header>
+    
+    </div>
+
+<footer style="color:beige;">
+    Aguascalientes, México 2023-2024
+</footer>
+</body>
+</html>
